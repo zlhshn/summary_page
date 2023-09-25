@@ -10,6 +10,10 @@ div.container{
     justify-content: center;
     margin: top 40%;  */
     font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+   margin: auto ;
+   margin-top: 350px;
+  
     
 }
 
@@ -74,28 +78,37 @@ div.summary{
     /* padding: 40px; */
     /* text-align: center; */
     border-radius: 30px;
+    box-shadow: 0 3px 3px 0 rgb(218, 209, 209);
+    
 }
 
 div.summary h4{
     color: black;
     opacity: 0.9;
+    /* text-align: left; */
+
+    
+  
 }
+
+section i{
+    margin-right: 5px;
+}
+
+
 div.summary section{
     display: flex;
     justify-content: space-between;
     align-items:center;
     border-radius: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     height: 50px;
     padding: 0px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px auto;
 
 }
 
-section i{
-    /* margin-left: 5px; */
-}
 
 .sec1 p:first-child{
     color: red;
@@ -128,4 +141,25 @@ section i{
 }
 .sec4{
     background-color:#F3F3FF;
+}
+
+.btn{
+    margin: 20px auto 30px auto;
+    width: 80%;
+    border-radius: 30px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+
+}
+
+.sec1,.sec2,.sec3,.sec4,:nth-child(2)
+{
+    font-weight: 550;
+}
+
+section p span{
+    color: gray;
 }
