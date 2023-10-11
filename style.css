@@ -26,6 +26,8 @@ div.result {
     width: 300px;
     height: 400px;
     text-align: center;
+    box-shadow: 0 3px 3px 0 rgb(218, 209, 209);
+ 
     
   
 } 
@@ -51,7 +53,7 @@ p.p1, .p4, .span2{
     height: 130px;
     border-radius:50% ;
     background-image: linear-gradient(180deg,#4924CE,  rgba(94, 104, 255, 0.2));
-    box-shadow: ;
+  
     margin: auto;
 }
 .p3{
@@ -72,7 +74,7 @@ p{
 
 /* summary section */
 div.summary{
-    border: 1px solid rgb(81, 140, 207);
+    /* border: 1px solid rgb(81, 140, 207); */
     background-color: white;
     width: 300px;
     line-height: 3rem;
@@ -80,9 +82,13 @@ div.summary{
     /* padding: 40px; */
     /* text-align: center; */
     border-radius: 30px;
+   
     display: flex;
     flex-direction: column;
-    box-shadow: 0 3px 3px 0 rgb(218, 209, 209);
+    box-shadow:  2px 2px 10px rgb(121, 118, 118);
+   
+     
+   
     
 }
 
