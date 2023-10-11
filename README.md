@@ -3,4 +3,4 @@
 
 [summary_page](https://zlhshn.github.io/summary_page/)
 
-![summary_page](summary_page.png)
+![summary_page](summary-page.png)
